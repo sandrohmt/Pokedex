@@ -18,11 +18,13 @@ function InfoPokemon() {
 
 
   return (
-    <div className="info">
+    <div>
 
       <Link className="logo" to={"http://127.0.0.1:5173/"}>
         <img src={logo} alt="Logo do Pokemon" />
       </Link>
+
+    <div className="info">
 
       <div className="infoImg">
         <img src={pokemonInfo.state.pokemon.sprite} alt="" />
@@ -48,6 +50,7 @@ function InfoPokemon() {
           <li key={abilities.indexOf(item)}> {item.ability.name} </li>
         ))}
       </ul>
+      </div>
     </div>
   )
 }
