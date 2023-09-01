@@ -20,7 +20,7 @@ function InfoPokemon() {
   return (
     <div>
 
-      <Link className="logo" to={"http://127.0.0.1:5173/"}>
+      <Link className="logo" to={"/Pokedex"}>
         <img src={logo} alt="Logo do Pokemon" />
       </Link>
 
